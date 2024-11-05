@@ -9,14 +9,14 @@ int main()
      res = PI*r*r;
     printf("area of circle : %f",res);
     circum=2*3.14*r;
-    printf("%f",circum);
+    printf("circum of circle: %f",circum);
 
 }
 float area(float r)
 {
     return PI*r*r;
 }
-float circumference(float r)
+float circum(float r)
 {
     return 2*3.14*r;
 }
